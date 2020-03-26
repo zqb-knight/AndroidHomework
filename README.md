@@ -8,7 +8,9 @@
 
 ## 效果图
 
+![](ex3_1.jpg)
 
+![](ex3_2.jpg)
 
 ## 任务一：在屏幕旋转时保存“on destory”和“on stop”信息
 
@@ -60,6 +62,8 @@ private void logAndAppend(String lifecycleEvent) {
         app.setValue(app.getValue() + "\n" + lifecycleEvent);
 ```
 
+![](ex1.jpg)
+
 ## 任务二：计算一个activity里的所有View数目
 
 #### 1.思路
@@ -97,7 +101,7 @@ public int getAllChildViewCount(View view) {
     }
 ```
 
-
+![](ex2.jpg)
 
 ## 任务三：模仿抖音消息界面，使用ReycleView
 

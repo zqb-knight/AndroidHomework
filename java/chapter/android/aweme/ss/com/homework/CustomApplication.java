@@ -11,8 +11,7 @@ import chapter.android.aweme.ss.com.homework.model.PullParser;
 
 public class CustomApplication extends Application {
     private static final String VALUE = "";
-    private String history;
-    private List<Message> messages;
+    private String history;          //存储log历史记录
     @Override
     public void onCreate()
     {
@@ -20,12 +19,10 @@ public class CustomApplication extends Application {
         setValue(VALUE); // 初始化全局变量
 
     }
-
     public void setValue(String value)
     {
         this.history = value;
     }
-
     public String getValue()
     {
         return history;

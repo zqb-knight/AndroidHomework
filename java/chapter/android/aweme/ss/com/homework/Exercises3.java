@@ -119,7 +119,6 @@ public class Exercises3 extends AppCompatActivity implements CardAdapter.ListIte
         }
         String toastMessage = "Item #" + clickedItemIndex + " clicked.";
         mToast = Toast.makeText(this, toastMessage, Toast.LENGTH_LONG);
-
         //mToast.show();
         Intent intent = new Intent(this, content.class);
         intent.putExtra("info",messages.get(clickedItemIndex).getDescription());

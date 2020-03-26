@@ -1,6 +1,14 @@
 ## How to use
 
-- 下载
+- Relesse下载homework-debug.apk
+
+- 对应目录下终端运行
+
+  **adb install -t homework-debug.apk**
+
+## 效果图
+
+
 
 ## 任务一：在屏幕旋转时保存“on destory”和“on stop”信息
 
